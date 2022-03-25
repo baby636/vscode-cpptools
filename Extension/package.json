@@ -2336,7 +2336,9 @@
     "unitTests": "tsc -p test.tsconfig.json && node ./out/test/unitTests/runTest.js",
     "integrationTests": "tsc -p test.tsconfig.json && node ./out/test/integrationTests/languageServer/runTest.js",
     "intelliSenseFeaturesTests": "tsc -p test.tsconfig.json && node ./out/test/integrationTests/IntelliSenseFeatures/runTest.js",
-    "import-edge-strings": "node ./import_edge_strings.js"
+    "import-edge-strings": "node ./import_edge_strings.js",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@octokit/rest": "^16.28.9",
@@ -2675,5 +2677,9 @@
       ],
       "integrity": "CF1A01AA75275F76800F6BC1D289F2066DCEBCD983376D344ABF6B03FDB8FEA0"
     }
-  ]
+  ],
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
+  }
 }
