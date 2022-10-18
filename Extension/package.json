@@ -2374,7 +2374,7 @@
     "gulp-typescript": "^5.0.1",
     "http-proxy-agent": "^2.1.0",
     "https-proxy-agent": "^2.2.4",
-    "minimatch": "^3.0.4",
+    "minimatch": "^3.0.5",
     "minimist": "^1.2.5",
     "mkdirp": "^0.5.1",
     "mocha": "^4.0.0",
