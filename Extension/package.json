@@ -2396,7 +2396,7 @@
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.7",
     "which": "^2.0.2",
-    "xml2js": "^0.4.19",
+    "xml2js": "^0.5.0",
     "yauzl": "^2.10.0"
   },
   "resolutions": {
